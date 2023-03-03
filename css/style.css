@@ -1,0 +1,151 @@
+/* Posicionamientos */
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .info, .quote, .button {
+    flex-grow: 1;
+}
+
+.header, .info, .button, ul, .cards, .register, .footer{
+    display: flex;
+}
+
+.header {
+    justify-content: space-around;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+
+.nav    {
+    display:  flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    flex-basis: 100%;
+}
+
+.info{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.quote, .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos */
+body{
+    margin: 0px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header, .info, .quote, .button{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+
+.nav {
+    margin-bottom: 100px;
+    border-bottom: 1px solid bisque;
+}
+
+img#foto{
+    height: 300px;
+    width: 300px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro button{
+    font-size: 20px;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+}
+
+.cards img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid burlywood;
+}
+
+.info .tittle{
+    margin-bottom: 50px;
+}
+
+.quote{
+ background-color: #E5E7EB;
+}
+
+.text .italic{
+    font-size: 30px;
+}
+
+.text .strong{
+    text-align: right;
+    font-size: 20px;
+}
+
+.register {
+    gap: 25px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.boton {
+    align-self: center;
+}
+
+.boton button{
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.boton, .texto{
+    margin: 20px;
+}
+
+.texto {
+    color: white;
+}
+.tittle {
+    font-size: 36px;
+    font-weight: 900;
+}
